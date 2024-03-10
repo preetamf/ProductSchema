@@ -1,4 +1,4 @@
-<!-- Answer 1 -->
+`<!-- Answer 1 -->`
 Explaination of relation between "Product" and "Product_Category" entities in the diagram provided;
 
 **Entities**;
@@ -18,7 +18,7 @@ This setup ensures that each product is linked to a category by matching its `ca
 Example : 
 Lets consider a scenario, with a product called "Running Shoes" labeled with ID 101 in our system. If these "Running Shoes" fall under the "Footwear" category identified by ID 1 their category ID will be assigned as 1. This action establishes a connection between the product "Running Shoes" and the category "Footwear."
 
-<!-- Answer 2 -->
+`<!-- Answer 2 -->`
 To ensure that each product in the **"Product"** table has a valid category assigned to it, we can use Mongoose's built-in validation method.
 
 Using Mongoose's populate() method along with schema validation to ensure that the **category_id** field references a valid category in the **"ProductCategorySchema"** collection.
